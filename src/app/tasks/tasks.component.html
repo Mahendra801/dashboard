@@ -1,8 +1,8 @@
 
 <h1>Todos List</h1>
 <div>
-    <input type="search" [(ngModel)]="search">
-    <button (click)="submit()">submit</button>
+    <input type="search">
+    <button (click)="submit($event)">submit</button>
     <button a [routerLink]="['/addtaskdata']">add taskdata</button>
 
     <table>
@@ -12,7 +12,7 @@
             <th>title</th>
             <th>body</th>
         </tr>
-        <tr *ngFor="let task of taskdata |filter:search">
+        <tr *ngFor="let task of taskdata">
             <td>{{task.userId}}</td>
             <td>{{task.id}}</td>
             <td>{{task.title}}</td>
