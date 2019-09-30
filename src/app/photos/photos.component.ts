@@ -40,8 +40,5 @@ comparingComments() {
  save(a){
    localStorage.setItem("data",JSON.stringify(a))
    this.router.navigate(['photo2'])
- } 
-  
-
- 
+ }  
 }
