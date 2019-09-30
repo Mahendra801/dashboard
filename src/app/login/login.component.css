@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(206, 206, 206);
+    width: 450px;
+    height: 550px;
+    border: 2px solid black;
+    margin: auto;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.log{
+    margin: 10%;
+}

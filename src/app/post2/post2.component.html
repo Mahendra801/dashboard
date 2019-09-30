@@ -1,0 +1,10 @@
+<h1>The Posts Are</h1>
+
+<hr color="red">
+<span *ngFor='let a of commentdata' (click)="get(a)">
+     <h3 id="a">{{a.title}}</h3>
+     <p>{{a.body}}</p>
+     <p>{{a.email}}</p>
+     <p>{{a.id}}</p>
+     <p>{{a.name}}</p>
+</span>

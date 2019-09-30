@@ -1,0 +1,18 @@
+<body>
+    <h1>loginForm</h1>
+    <form [formGroup]="log">
+        <p>useremail
+            <br><input type="email" formControlName="useremail" name="useremail" placeholder="useremail"
+                style="width: 70%; height:30px; font-size: 25px; border-radius: 20px;padding: 10px; border: 2px solid black">
+        </p>
+        <p>password<br>
+            <input type="password" formControlName="password" name="password" placeholder="password"
+                style="width: 70%; height:30px; font-size: 25px; border-radius: 20px;padding: 10px; border: 2px solid black">
+        </p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <button (click)="login(log.value)" style="width:35%; height:50px; border-radius: 10px; border: 2px solid black; padding: 10px; font-size: 18px;">login</button>
+
+        <br>
+        <h3>sign in page<a href="http://localhost:4200/">signup</a>signup</h3>
+    </form>
+</body>

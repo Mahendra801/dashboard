@@ -1,0 +1,19 @@
+<div>
+    <h1><fieldset> All Posts</fieldset></h1>
+    
+
+<table>
+    <tr>
+        <th>userid</th>
+        <th>id</th>
+        <th>title</th>
+        <th>body</th>
+    </tr>
+    <tr *ngFor="let a of alldata" (click)="show(a)">
+        <td>{{a.userId}}</td>
+        <td>{{a.id}}</td>
+        <td>{{a.title}}</td>
+        <td>{{a.body}}</td>
+    </tr>
+</table>
+</div>

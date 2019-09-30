@@ -1,0 +1,8 @@
+<h1>ading list data </h1>
+<form [formGroup]="adding">
+<h2>userId:<input type="text" formControlName="userId" style="margin-left:60px;"> </h2>
+<h2>id:<input type="number" formControlName="id"  style="margin-left:110px;"></h2>
+<h2>title:<input type="text" formControlName="title" style="margin-left:90px;"></h2>
+<h2>body:<input type="text" formControlName="body" style="margin-left:80px;"></h2>
+<button (click)="add(adding.value)">adddata</button>
+</form>

@@ -1,0 +1,16 @@
+<form [formGroup]="sign"
+        style="background-color: rgb(233, 233, 208); width: 600px; height: 630px; margin: auto;font-size: 30px; align-content: center;border: 3px solid rgb(0, 0, 0); border-radius: 30px;text-align: center;">
+        <h3 style="text-align: center; background-color: rgb(255, 162, 162)">SignUp Form</h3>
+        FirstName <br><input type="text" formControlName="firstname" style="width: 50%;height:30px; font-size: 18px;"><br>
+        LastName<br><input type="text" formControlName="lastname" style="width: 50%;height:30px;font-size: 18px;"><br>
+        <p formControlName="gender">Gender
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+
+        </p>
+        Useremail<br><input type="email" formControlName="email" style="width: 50%;height:30px;font-size: 18px;"><br>
+        Passwordbr<br><input type="password" formControlName="password" style="width: 50%;height:30px;font-size: 18px;">
+<br>
+        <button type="submit" (click)="submit(sign)" style="width: 30%; height:50px; background-color: yellow;">submit</button>
+        <p>already login click this <a href="http://localhost:4200/login">login</a>login</p>
+</form>

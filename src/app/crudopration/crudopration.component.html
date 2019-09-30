@@ -1,0 +1,29 @@
+<h1>ENTER THE DETAILS</h1>
+<form [formGroup]="op">
+    ID:
+    <input type="text" formControlName="id" [(ngModel)]="id" ><br><br><br>
+    TITLE:
+    <input type="text" formControlName="title" [(ngModel)]="fname" ><br><br>
+    AUTHOR:
+<input type="text" formControlName="author" [(ngModel)]="lname" ><br><br>
+
+<button (click)="add(op)">Add</button>&nbsp;&nbsp;&nbsp;
+<button (click)="view()">View</button><br><br><br>
+
+</form>
+Remove by id:
+<input type="text" [(ngModel)]="removeid">&nbsp;&nbsp;
+<button (click)="remove()">Remove</button><br><br>
+<table border="1" >
+<tr>
+<th>id</th>
+<th>title</th>
+<th>author</th>
+    </tr>
+    <tr *ngFor= 'let a of data1; let i=index'>
+    <td>{{a.id}}</td>
+    <td>{{a.title}}</td>
+     <td>{{a.author}}</td>
+     <button (click)="update(a)">Update</button>
+    </tr> 
+</table>

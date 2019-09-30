@@ -1,0 +1,7 @@
+<h1>photos</h1>
+<div *ngFor="let phot of new" (click)="save(phot)">
+    
+    <img src="{{phot.thumbnailUrl}}">
+    <p>{{phot.url}}</p>
+    <p> {{phot.title}}</p>
+</div>

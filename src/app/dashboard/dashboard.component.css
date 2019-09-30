@@ -1,0 +1,25 @@
+.dash{
+background-color: rgb(224, 224, 224);
+}
+h1{
+ font-size: 40px;
+ background-color: rgb(103, 103, 107);
+ border-radius: 20px;
+
+}
+h1:hover{
+    border-radius: 20px;
+    background: rgb(172, 68, 68);
+}
+h2{
+    font-size: 40px;
+    width: 13%;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 13px;
+}
+h2:hover{
+    border-radius: 20px;
+    background: rgb(216, 159, 159);
+}

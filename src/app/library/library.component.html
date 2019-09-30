@@ -1,0 +1,8 @@
+<p>library works!</p>
+<img src="../../assets/news img.jpg" alt="news">
+<div *ngFor= "let bok of book"> 
+<p (click)="senddata(bok)">{{bok.alias}}</p>
+<p>{{bok.reportedBy}}/{{bok.reportedDate}}</p>
+<p>{{bok.description}}</p>
+<p>{{bok.shortDescription}}</p>
+</div>

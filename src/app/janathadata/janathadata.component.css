@@ -1,0 +1,15 @@
+.news{
+    
+    background-color: rgba(240, 255, 255, 0.521);
+    font-size-adjust: inherit;
+    width: 80%;
+    border: 20px solid rgb(43, 1, 143);
+    border-radius: 20px;
+    border-bottom-color: rgb(197, 13, 13);
+    border-bottom-left-radius: 70px 70px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    
+    margin: auto;
+}
