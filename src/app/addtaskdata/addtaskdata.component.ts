@@ -20,8 +20,7 @@ export class AddtaskdataComponent implements OnInit {
     })
    }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
   add(value){
     let body={
       userId:value.userId,
@@ -29,6 +28,7 @@ export class AddtaskdataComponent implements OnInit {
       title:value.title,
       body:value.body,
     }
+
     this.http.post("https://jsonplaceholder.typicode.com/todos",body).subscribe(data=>{
       console.log(data)
     })

@@ -1,0 +1,33 @@
+.log{
+    width: 40%;
+    height: 400px;
+    border: 2px solid black;
+    margin: auto;
+
+    background-color: aliceblue;
+    border-radius: 20px ;
+}
+input{
+    width: 70%;
+    height: 40px; 
+    font-size: 30px;
+    background-color: rgb(228, 228, 228);
+    align-content: center;
+    margin-left: 70px;
+    padding: 10px;
+    text-align: center;
+
+}
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(233, 0, 0);
+    margin-left: 150px;
+}
+h1{
+    background-color: red;
+     color: white;
+      text-align: center;
+      height: 60px;
+}

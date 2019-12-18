@@ -1,0 +1,71 @@
+
+.degin1{ 
+    margin-left: 1px;
+    width: 30%;
+    height: 100px;
+}
+img{
+    align-content: center;
+    width:100%; 
+    height:350px;
+
+}
+.text-white{
+    column-rule: black;
+}
+.anc{
+    padding:20px;
+    margin-top: 20px;
+
+
+}
+.text-primary{
+    font-size: 40px;
+    float:right;
+}
+.card{
+    background-color: rgb(87, 85, 252);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card-footer{
+    width: auto;
+    height: auto;
+   
+}
+.bt{
+    font-size: 30px;
+    background-color: rgb(1, 12, 2);
+    color: white;
+    width: 15%;
+    
+}
+.bt:hover{
+    background-color: rgb(0, 255, 21);
+    color: white;
+    font-size: 30px;
+    width: 15%;
+
+}
+ .text-white{
+     font-size: 40px;
+     margin-right: 0px;
+ }
+ .card-body{
+     padding: 40px;
+ }
+ @media screen and(max-width: 650px){
+    .container .card  .card-header .card-body .card-footer {
+       width: 100%;
+   }
+}
+@media phone and(max-width: 650px){
+    .container .card  .card-header .card-body .card-footer {
+        width: 100%;
+    }
+}
+
+ 

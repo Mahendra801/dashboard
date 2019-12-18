@@ -1,0 +1,32 @@
+
+
+    <div class="btn">
+    <label><button class="btn btn-primary btn-md" (click)="add()">BANGALORE</button></label>
+<label style="padding: 10px;">  <button class="btn btn-success btn-md" (click)="add1()">DELHI</button></label>
+<label style="padding: 10px;"><button class="btn btn-secondary btn-md" (click)="add2()">KOLKATA</button></label>
+<label style="padding: 10px;" ><button class="btn btn-danger  btn-md" (click)="add3()">CUTTACK</button></label>
+    </div>
+    <div>
+<table>
+    <tr>
+        <th class="bg-success text-white">bank_name</th>
+        <th class="bg-warning text-white">branch</th>
+        <th class="bg-danger text-white">city</th>
+        <th class="bg-info text-white">district</th>
+        <th class="bg-white text-dark">ifsc</th>
+        <th class="bg-primary text-white">state</th>
+        <th class="bg-secondary text-white">bank_id</th>
+        <th class="bg-dark text-white">address</th>
+    </tr>
+    <tr *ngFor="let ban of bank">
+        <td>{{ban.bank_name}}</td>
+        <td>{{ban.branch}}</td>
+        <td>{{ban.city}}</td>
+        <td>{{ban.district}}</td>
+        <td>{{ban.ifsc}}</td>
+        <td>{{ban.state}}</td>
+        <td>{{ban.bank_id}}</td>
+        <td>{{ban.address}}</td>
+    </tr>
+</table>
+</div>

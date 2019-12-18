@@ -1,0 +1,52 @@
+button{
+    margin:3px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    margin-top: 20px;
+    border-bottom: 1px solid #0c0303;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:60px 10px 60px 10px;
+}   
+button:hover{
+    background-color:rgb(77, 192, 238);
+    color: rgb(0, 0, 0);
+}
+.container .content {
+    position: absolute;
+    bottom: 0;
+    color: #6804da;
+    width: 30%;
+    padding: 10px;
+  }
+  .click {
+      padding: 10px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius:60px 10px 60px 10px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .click:hover{
+      align-content: center;
+      background-color: white;
+  }
+ 
+  
+  .side button{
+      width: 150px;
+      font-size: large;
+      height: 60px;
+  }
+ 
+  
+  
+
+
+  
+  

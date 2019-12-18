@@ -9,12 +9,12 @@
 
 <button (click)="add(op)">Add</button>&nbsp;&nbsp;&nbsp;
 <button (click)="view()">View</button><br><br><br>
-
 </form>
 Remove by id:
 <input type="text" [(ngModel)]="removeid">&nbsp;&nbsp;
 <button (click)="remove()">Remove</button><br><br>
 <table border="1" >
+    
 <tr>
 <th>id</th>
 <th>title</th>
@@ -24,6 +24,6 @@ Remove by id:
     <td>{{a.id}}</td>
     <td>{{a.title}}</td>
      <td>{{a.author}}</td>
-     <button (click)="update(a)">Update</button>
+     <button (click)="update(a)" style="background-color: rgb(240, 0, 0); color: beige;">Update</button>
     </tr> 
 </table>

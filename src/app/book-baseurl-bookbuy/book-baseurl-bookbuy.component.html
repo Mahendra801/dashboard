@@ -1,0 +1,9 @@
+<div class="container">
+    <div  class="col. col-sm-3 col-md-6 col-lg-4">
+        <form [formGroup]="baseurl"><br>
+            <p style="margin-left: 20px;"> id<input type="text"  name="id" formControlName="id" placeholder="id" style="float: right;"></p>
+            <p style="margin-left: 20px;">user_id<input type="text" name="user_id" formControlName="user_id" placeholder="user_id" style="float: right;;"></p>  
+            <button (click)="submit(baseurl)" style="margin-left: 120px;">submit</button>
+        </form>
+    </div>
+</div>

@@ -18,7 +18,6 @@ export class JanathanewsComponent implements OnInit {
   }
   getData() {
     this.http.getNewsData().subscribe(data => {
-
       this.newsData = (data['news'])
       for (var i = 0; i < this.newsData.length; i++) {
         this.ids.push(this.newsData[i]._id)

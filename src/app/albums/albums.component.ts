@@ -16,14 +16,12 @@ export class AlbumsComponent implements OnInit {
     this.http.get("https://jsonplaceholder.typicode.com/albums").subscribe(data=>{
       console.log(data)
       this.albumsdata=data
-      
-    })
-    
+    })  
+
   }
   albums(values){
     this.router.navigate(["photos"])
     localStorage.setItem("albumsdata",JSON.stringify(values))
-    
   }
-
+  
 }

@@ -1,0 +1,21 @@
+<body style="background-color:rgb(24, 124, 74); height: 600px; color: rgb(216, 216, 216); padding: 80px;">
+    <div class="signup">
+        <fieldset
+            style="text-align:center;  height: 50px; font-size: 60px; color:rgb(22, 26, 20); background-color: rgb(184, 214, 16);">
+            SIGNUP</fieldset>
+        <form [formGroup]="sin">
+            <h1> Firstname<input type="text" name="fname" formControlName="fname" placeholder="FirstName"></h1>
+            <h1> LastName<input type="text" name="lname" fromControlName="lname" placeholder="LastName"></h1>
+            <h1> age<input type="number" name="age" formControlName="age" placeholder="age" style="margin-left: 115px;">
+            </h1>
+            <h1>username<input type="email" name="email" formControlName="user" placeholder="username"
+                    style="margin-left: 25px;"></h1>
+            <h1>Password<input type="password" name="password" formControlName="pass" placeholder="password"
+                    style="margin-left: 25px;"></h1>
+            <br>
+            <button (click)="signup(sin)" style="margin-left:250px">SIGNUP</button>
+
+        </form>
+    </div>
+    <h2 style="text-align:center">Designwith mahendra.angular.Signup page</h2>
+</body>

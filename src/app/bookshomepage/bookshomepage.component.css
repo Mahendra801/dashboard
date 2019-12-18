@@ -1,0 +1,67 @@
+
+.degin1{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.text-primary{
+    font-size: 40px;
+}
+.anc{
+    padding:30px;
+    margin-top: 10px;
+}
+.degin2{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    float: right;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    align-content: center;
+
+}
+.degin2:hover{
+    background-color: rgb(255, 14, 14);
+    text-decoration: none;
+    width: 10%;
+    float: right;
+    font-size: 30px;
+    align-content: center;
+    margin-top: 10px;
+}
+.card{
+    margin-top: 20px;
+    width: auto;
+    border: 10px solid hsla(240, 100%, 5%, 0.795);
+    border-radius: 20px;
+}
+.margin-right{
+    margin-right: 10px;
+}
+.card .im{
+    width: auto;
+    height:200px;
+    padding: 1px;
+    background-color: white;
+}
+.im:hover{
+background-color: rgb(255, 251, 0);
+}
+.col-sm-3{
+    padding: auto;
+     width: 100%;
+     height: auto;
+     float:left; 
+     border-radius: 10px;
+}
+@media screen and(max-width: 650px){
+     .container .degin2 {
+        width: 100%;
+    }
+}
+@media phone and(max-width: 650px){
+    .container .degin2 {
+       width: 100%;
+   }
+}

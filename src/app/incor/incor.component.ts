@@ -20,5 +20,4 @@ export class IncorComponent implements OnInit {
       console.log(this.incor);
     })
   }
-
 }

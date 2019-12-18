@@ -1,0 +1,16 @@
+
+<body style="background-color:rgb(192, 4, 4);height: 1200px;padding:100px;"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="log">
+    <form [formGroup]="log">
+            <h1>LOGIN</h1>
+    <input type="text"  formControlName="user" placeholder="username"><br><br><br>
+    <input type="password" formControlName="pass" placeholder="password"><br><br><br><br>
+    <button (click)="login(log)">LOGIN</button>
+</form>
+</div>
+<h2 style="text-align:center">Designwith mahendra.angular.login page</h2>
+<br>
+<button (click)="show()">show</button>
+</body>

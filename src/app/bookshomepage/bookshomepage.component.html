@@ -1,0 +1,26 @@
+<body style="background:black;">
+
+    <div class="container">  
+        <div class="col.">
+            <a href="http://localhost:4200/#" class="anc"><img src="../../assets/559404-istock-512966920_0.webp" alt="ssd" width="200px;" height="70px"
+                    class="degin1" style="background-color: red;"></a>
+            <label class="text-primary">BOOK STORE</label>&nbsp;
+            <button class="degin2" [routerLink]="['/booklogin']">login</button>  
+            </div>
+    </div>
+    <div *ngFor="let book of library">
+        <div class="container">
+            <div class="col. col-sm-3 col-md-6 col-lg-4">
+                <div class="card" >      
+                        <img src="{{book.book.book_url}}" alt="img" class="im"
+                             (click)="bookdetail(book.book)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<!-- <p>{{book.author.id}}<br>{{book.author.address}}<br>{{book.author.email}}<br>{{book.author.id}}<br>{{book.author.name}}</p>
+   <p>{{book.book.book_url}}<br>{{book.book.created}}<br>{{book.book.description}}<br>{{book.book.id}}<br>{{book.book.title}}<br>{{book.book.updated}}</p> -->

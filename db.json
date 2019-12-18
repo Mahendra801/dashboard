@@ -11,3 +11,384 @@
     "name": "typicode"
   }
 }
+
+[
+  {
+    "author": {
+      "id": 1,
+      "address": "marathalli,bangalore,karnataka 560103",
+      "email": "ratantata@gmail.com",
+      "name": "Ratan Tata",
+      "book_id": 1
+    },
+    "book": {
+      "id": 1,
+      "title": "the wit and wisdom of ratan tata",
+      "description": "In times of adversity, you have two choices - you can either steal yourself away from the situation or steel yourself up towards it. For Ratan Tata, the choice was made early on. To be given the reins to India's largest business conglomerate can be extremely daunting.",
+      "price": 200,
+      "created": "2019-06-12T11:31:22.000Z",
+      "updated": "2019-06-12T11:31:22.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51E1R8hsaUL._SX447_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 2,
+      "address": "marathalli,bangalore,karnataka 560203",
+      "email": "lorriekim@gmail.com",
+      "name": "lorrie kim",
+      "book_id": 2
+    },
+    "book": {
+      "id": 2,
+      "title": "snape a definitive reading",
+      "description": "The Harry Potter series may be named after the Boy Who Lived, but if you want to know the story, keep your eyes fixed on Severus Snape. This hook-nosed, greasy-haired, grumpy character is one of J.K. Rowling’s enduring gifts to English literature",
+      "price": 300,
+      "created": "2019-06-12T11:35:26.000Z",
+      "updated": "2019-06-12T11:35:26.000Z",
+      "book_url": "https://images-eu.ssl-images-amazon.com/images/I/41JdnmiwgpL.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 3,
+      "address": "hsr layout,bangalore,karnataka 560203",
+      "email": "normanvincent@gmail.com",
+      "name": "Norman Vincent Peale",
+      "book_id": 3
+    },
+    "book": {
+      "id": 3,
+      "title": "the power of positive thinking",
+      "description": "The Power of Positive Thinking is a phenomenal bestseller that has inspired millions of people across the world. First published in 1952, the book remains equally relevant today and holds immense power to motivate all readers.",
+      "price": 300,
+      "created": "2019-06-12T11:39:28.000Z",
+      "updated": "2019-06-12T11:39:28.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/516kt1KKPiL._SX335_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 4,
+      "address": "hsr layout,bangalore,karnataka 560203",
+      "email": "napoleonhill@gmail.com",
+      "name": "napoleon hill",
+      "book_id": 4
+    },
+    "book": {
+      "id": 4,
+      "title": "think and grow rich",
+      "description": "Think And Grow Rich has earned itself the reputation of being considered a textbook for actionable techniques that can help one get better at doing anything, not just by rich and wealthy, but also by people doing wonderful work in their respective fields.",
+      "price": 17000,
+      "created": "2019-06-12T12:57:10.000Z",
+      "updated": "2019-06-12T12:57:10.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51Y8jwGiebL._SX328_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 5,
+      "address": "banashakari,bangalore,karnataka 560103",
+      "email": "gracia@gmail.com",
+      "name": "Hector Gracia",
+      "book_id": 5
+    },
+    "book": {
+      "id": 5,
+      "title": "Ikigai",
+      "description": "The Japanese Secret to a Long and Happy Life",
+      "price": 314,
+      "created": "2019-06-13T06:57:16.000Z",
+      "updated": "2019-06-13T06:57:16.000Z",
+      "book_url": "https://rukminim1.flixcart.com/image/832/832/jeiukcw0/book/8/9/5/ikigai-original-imaf36tfg6h9hx2x.jpeg?q=70"
+    }
+  },
+  {
+    "author": {
+      "id": 6,
+      "address": "munnekolla,bangalore,560103",
+      "email": "prabhu@gmail.com",
+      "name": "Prabhu Swaminathan",
+      "book_id": 6
+    },
+    "book": {
+      "id": 6,
+      "title": "Wasted in Engineering : Story of India’s Youth ",
+      "description": "Engineering padicha nalla future _ If you study engineering, you will have a good future. This is a claim often repeated to children and teenagers by parents and teachers in many parts of India.But only those who have gone through an engineering college life know that it's not completely true.",
+      "price": 629,
+      "created": "2019-06-13T07:02:01.000Z",
+      "updated": "2019-06-13T07:02:01.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51vEa%2BqdpvL._SX311_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 7,
+      "address": "MG road,bangalore,560456",
+      "email": "nidhi@gmail.com",
+      "name": "Nidhi Tibrewal",
+      "book_id": 7
+    },
+    "book": {
+      "id": 7,
+      "title": "Discover Yourself: Unleash the Power in You",
+      "description": "Discover your treasures as feelings expressed in the form of words. The writer aims to touch people's hearts, inspire them through various methods, and change their perception toward life. Optimism as an output is what the writer hopes each reader will acquire at the end of reading the book.",
+      "price": 249,
+      "created": "2019-06-13T07:06:24.000Z",
+      "updated": "2019-06-13T07:06:24.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51N3-%2BL14zL._SX311_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 8,
+      "address": "agara,bangalore,560456",
+      "email": "abdulkalam@gmail.com",
+      "name": "A.P.J. Abdul Kalam",
+      "book_id": 8
+    },
+    "book": {
+      "id": 8,
+      "title": "Forge your Future",
+      "description": "“Forge your Future” is a well written novel by A.P.J. Abdul Kalam. Dr. Kalam had to overcome various obstacles since humble childhood to becoming the president of India.",
+      "price": 543,
+      "created": "2019-06-13T07:11:29.000Z",
+      "updated": "2019-06-13T07:11:29.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51ow8LUTm%2BL._SX323_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 9,
+      "address": "domaluru,bangalore,560456",
+      "email": "vivekananda@gmail.com",
+      "name": "Swami Vivekananda",
+      "book_id": 9
+    },
+    "book": {
+      "id": 9,
+      "title": "Thoughts to Inspire",
+      "description": "Inspiring Thoughts’ is a unique collection of the famous quotes by Swami Vivekananda – a spiritual soldier, a traveling monk and an orator beyond excellence",
+      "price": 323,
+      "created": "2019-06-13T07:17:24.000Z",
+      "updated": "2019-06-13T07:17:24.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41jTWbUA99L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 10,
+      "address": "panathur,bangalore,560456",
+      "email": "hermanhesse@gmail.com",
+      "name": "Hermen Hesse",
+      "book_id": 10
+    },
+    "book": {
+      "id": 10,
+      "title": "Siddhartha",
+      "description": "Hermann Hesse was deeply influenced by tho boundless nature of Indian philosophy - one that inspired him to write one of the most widely read novel of the twentieth century, Siddhartha. Siddhartha, was born into an affluent and privileged Brahmin family, and loved by one and all",
+      "price": 150,
+      "created": "2019-06-13T07:35:51.000Z",
+      "updated": "2019-06-13T07:35:51.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41AWnHfRq6L._SX336_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 11,
+      "address": "varthur,bangalore,560456",
+      "email": "sadguru@gmail.com",
+      "name": "Sadguru",
+      "book_id": 11
+    },
+    "book": {
+      "id": 11,
+      "title": "The Flowers on the Path",
+      "description": "Hermann Hesse was deeply influenced by tho boundless nature of Indian philosophy - one that inspired him to write one of the most widely read novel of the twentieth century, Siddhartha. Siddhartha, was born into an affluent and privileged Brahmin family, and loved by one and all",
+      "price": 222,
+      "created": "2019-06-13T07:38:14.000Z",
+      "updated": "2019-06-13T07:49:39.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41qYt0FCTFL._SX324_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 12,
+      "address": "banashakari,bangalore,560456",
+      "email": "ravindra@gmail.com",
+      "name": "Ravindranath Tagore",
+      "book_id": 12
+    },
+    "book": {
+      "id": 12,
+      "title": "Nationalism",
+      "description": "A Bengali polymath who reshaped Bengali literature, music and Indian art with Contextual Modernism in the late 19th and early 20th centuries, Rabindranath Tagore became the first non-European to win the Nobel Prize in Literature in 1913. ",
+      "price": 230,
+      "created": "2019-06-13T07:43:54.000Z",
+      "updated": "2019-06-13T07:45:29.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51d8DpiLjwL._SX320_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 13,
+      "address": "hosuru,bangalore,560456",
+      "email": "mahatma@gmail.com",
+      "name": "Mahatma Gandhi",
+      "book_id": 13
+    },
+    "book": {
+      "id": 13,
+      "title": "Mahatma Gandhi Autobiography",
+      "description": "This unusual autobiography “The Story of My Experiments with Truth”, is a window to the workings of Mahatma Gandhi’s mind – a window to the emotions of his heart – a window to understanding what drove this seemingly ordinary man to the heights of being the father of a nation – India.",
+      "price": 234,
+      "created": "2019-06-13T07:47:58.000Z",
+      "updated": "2019-06-13T07:49:39.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/512aq%2BFfOPL._SX321_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 14,
+      "address": "kolar,bangalore,560456",
+      "email": "mamatasharma@gmail.com",
+      "name": "Mamata Sharma",
+      "book_id": 14
+    },
+    "book": {
+      "id": 14,
+      "title": "Nelson Mandela",
+      "description": "Nelson Mandela, the man who dared to raise his voice against apartheid, who followed his dream and gained back the right to live with dignity for all the black people in their own country.",
+      "price": 125,
+      "created": "2019-06-13T07:54:11.000Z",
+      "updated": "2019-06-13T07:54:11.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51cfIQzOxKL._SX308_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 15,
+      "address": "jayadevpura,bangalore,560456",
+      "email": "mamatasharmaguje@gmail.com",
+      "name": "Mamata Sharma Guje",
+      "book_id": 15
+    },
+    "book": {
+      "id": 15,
+      "title": "Adolf Hitler",
+      "description": "Adolf Hitler is often held responsible for more evil and suffering than any man in history. Hitler was unstoppable ... the more one delves into Hitler's life, the more complex it appears.",
+      "price": 125,
+      "created": "2019-06-13T08:00:16.000Z",
+      "updated": "2019-06-13T08:00:16.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/516TI5LNueL._SX315_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 16,
+      "address": "kundanahalli,bangalore,560456",
+      "email": "joseph@gmail.com",
+      "name": " Dr. Joseph Murphy",
+      "book_id": 16
+    },
+    "book": {
+      "id": 16,
+      "title": "Believe in Yourself",
+      "description": "In Believe in Yourself, Dr. Murphy stresses about having faith in ones abilities, believing in the inner self and in having the courage to chase your dream, come what may",
+      "price": 125,
+      "created": "2019-06-13T08:03:50.000Z",
+      "updated": "2019-06-13T08:04:34.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41o5PJi5v3L._SX327_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 17,
+      "address": "kundanahalli,bangalore,560456",
+      "email": "annefrank@gmail.com",
+      "name": "Anne Frank",
+      "book_id": 17
+    },
+    "book": {
+      "id": 17,
+      "title": "The Diary of a Young Girl ",
+      "description": "Writing in a diary is a really strange experience for someone like me. Not only because I’ve never written anything before, but also because it seems to me that later on neither I nor anyone else will be interested in the musings of a thirteen-year-old schoolgirl",
+      "price": 225,
+      "created": "2019-06-13T08:10:11.000Z",
+      "updated": "2019-06-13T08:10:11.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/418ClB3DZ-L._SX298_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 18,
+      "address": "kundanahalli,bangalore,560456",
+      "email": "carnegi@gmail.com",
+      "name": "Dale Carnegie",
+      "book_id": 18
+    },
+    "book": {
+      "id": 18,
+      "title": "How to Win Friends and Influence People",
+      "description": "This is the book that gave birth to a self-improvement industry that spans the Globe (according to the Daily Express Newspaper). First written in 1936",
+      "price": 120,
+      "created": "2019-06-13T08:13:00.000Z",
+      "updated": "2019-06-13T08:13:00.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41f8WSwRaaL._SX324_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 19,
+      "address": "white field,bangalore,560456",
+      "email": "giblin@gmail.com",
+      "name": "Les Giblin",
+      "book_id": 19
+    },
+    "book": {
+      "id": 19,
+      "title": "The Art of Dealing with People",
+      "description": "The Art Of Dealing With People is a complete Source-book for those who wish to develop people-skills. The author lays down tested methods of getting along with people",
+      "price": 100,
+      "created": "2019-06-13T08:15:50.000Z",
+      "updated": "2019-06-13T08:15:50.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/41YY1f9v1jL._SX316_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 20,
+      "address": "white field,bangalore,560456",
+      "email": "dave@gmail.com",
+      "name": "Dave Banks",
+      "book_id": 20
+    },
+    "book": {
+      "id": 20,
+      "title": "The People Skill Handbook ",
+      "description": "The ability to effectively deal with people gives you an advantage, both socially and professionally. Have you noticed, be it at your workplace or in a social context",
+      "price": 155,
+      "created": "2019-06-13T08:18:07.000Z",
+      "updated": "2019-06-13T08:18:07.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/419mjMloLgL._SX310_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "author": {
+      "id": 22,
+      "address": "marathalli,bangalore,karnataka 560103",
+      "email": "ratantata@gmail.com",
+      "name": "Ratan Tata",
+      "book_id": 22
+    },
+    "book": {
+      "id": 22,
+      "title": "the wit and wisdom of ratan tata",
+      "description": "In times of adversity, you have two choices - you can either steal yourself away from the situation or steel yourself up towards it. For Ratan Tata, the choice was made early on. To be given the reins to India's largest business conglomerate can be extremely daunting.",
+      "price": 200,
+      "created": "2019-06-16T09:49:05.000Z",
+      "updated": "2019-06-16T09:49:05.000Z",
+      "book_url": "https://images-na.ssl-images-amazon.com/images/I/51E1R8hsaUL._SX447_BO1,204,203,200_.jpg"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="col. col-sm-3 col-md-6 col-lg-4">
+        <form [formGroup]="add"><br>
+            <p style="margin-left: 10px;"> title<input type="text" name="title" formControlName="title"
+                    placeholder="title" style="float:right;"></p>
+            <p style="margin-left: 10px;">description<input type="text" name="description" formControlName="description"
+                    placeholder="description" style="float:right;"></p>
+            <p style="margin-left: 10px;">price<input type="text" name="price" formControlName="price"
+                    placeholder="price" style="float:right;"></p>
+            <p style="margin-left: 10px;">book_url<input type="text" name="book_url" formControlName="book_url"
+                    placeholder="book_url" style="float:right;"></p>
+            <p style="margin-left: 10px;"> email<input type="email" name="email" formControlName="email"
+                    placeholder="user email" style="float:right;"></p>
+            <p style="margin-left: 10px;">address<input type="text" name="address" formControlName="address"
+                    placeholder="address" style="float:right;"></p>
+            <p style="margin-left: 10px;"> name<input type="text" name="name" formControlName="name"
+                    placeholder="FirstName" style="float:right;"></p>
+
+            <button (click)="addtobookstore(add)" style="margin-left: 120px;">add to book store</button>
+        </form>
+    </div>
+</div>
